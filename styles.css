@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
+header { align-items: center; background: #f9f9f9; display: flex; justify-content: space-between; padding-left: 2rem; padding-right: 2rem; position: fixed; z-index: 2; width: 100%; }
 
 nav {
     display: flex;
@@ -12,8 +13,7 @@ nav {
     align-items: center;
     padding: 10px 150px;
 }
-
-ul {
+#btn-li ul {
     display: flex;
 }
 
@@ -72,7 +72,8 @@ li {
 }
 
 #start {
-    padding-top: 80px;
+    display: flex;
+    padding-top: 160px;
     text-align: center;
 }
 
@@ -82,9 +83,14 @@ li {
 }
 
 #about-me {
+    margin-top: -150px;
     background-color: #6E07F3;
     color: white;
     align-content: center;
+}
+
+#img-me {
+    margin-top: -100px;
 }
 
 #about-me-inside {
@@ -99,8 +105,51 @@ li {
 }
 
 #projects {
-    margin-top: -250px;
+    margin-top: 200px;
 }
+
+#div-introdution {
+    padding: 100px 140px;
+    width: 50%;
+}
+
+#div-gif {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.icons-aboutme{
+    width: 70px;
+}
+
+#habilities {
+    background-color: white;
+    display: flex;
+    margin: -150px 40px;
+    border-radius: 15px;
+    height: 450px;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+}
+
+.box-habilities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #141c3a;
+    padding: 10px 60px;
+    height: 430px;
+}
+
+#box-center {
+    border-right: 1px solid rgb(227, 227, 227);
+    border-left: 1px solid rgb(227, 227, 227);
+}
+
+.box-habilities h4 {
+    color: #6E07F3;
+}
+
 
 
 
@@ -134,7 +183,7 @@ li {
     padding-left: 10px;
     color: #465362;
 }
-h1 {
+.card h1 {
 text-align: center;
 }
 .profile {
