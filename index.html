@@ -4,34 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./src/logoicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-
             <nav>
                 <div>
-                    <img src="" alt="">
+                    <img src="./src/logoicon.png" alt="">
                 </div>
-                
-                <div>
+                <div id="btn-li">
                     <ul>
                         <li>
-                            <a href="">Início</a>
+                            <a class="items-menu" href="#start">Início</a>
                         </li>
                         <li>
-                            <a href="">Sobre mim</a>
+                            <a class="items-menu" href="#about-me">Sobre mim</a>
                         </li>
                         <li>
-                            <a href="">Projetos</a>
+                            <a class="items-menu" href="#projects">Projetos</a>
                         </li>
                         <li>
-                            <a href="">Habilidades</a>
+                            <a class="items-menu" href="#skills">Habilidades</a>
                         </li>
                     </ul>
+                    <button class="btn-primary">Contato</button>
                 </div>
             </nav>
-
     </header>
+    <main>
+        <div id="start">
+            <h1>Desenvolvedor Web Full Stack</h1>
+            <p>Eu projeto e codifico aplicações de alto nível e valor, eu realmente amo o que faço!</p>
+            <img src="./src/mesdtn.png" alt="" width="290px">
+        </div>
+        <div class="align-center">
+            <img src="./src/Programming.gif" alt="" width="400px">
+        </div>
+        <div id="about-me">
+            <div id="about-me-inside">
+                <h1>Olá, sou o Caio. Prazer em conhecê-lo!</h1>
+                <p>
+                    Comecei no mundo da tecnologia no ano de 2015 aos 15 anos programando máquinas e robôs com linguagens de baixo nível. Hoje em dia o código faz parte da minha vida, eu amo criar novos projetos para expandir meu conhecimento, e também amo aprender novas linguagens e frameworks. 
+                    Possuo foco em desenvolvimento com Javascript, TypeScript, Java, Spring, Angular, Kotlin dentre outras tecnologias que uso para criar aplicações web/mobile de alto nível e valor.
+                </p>
+            </div>
+        </div>
+        <div id="projects">
+            <div class="todo">
+                <div class="card">
+                    <img id="banner" src="/src/hand.jpg" alt="robot hand">
+                    <div class="labeldiv">
+                    <p id="label1">Technology</p>
+                    </div>
+                    <p class="tags">#robot #ia #conscience #technology</p>
+                    <h2 class="content">Is AI going to help humans?</h2>
+                    <p class="content">Do they really have conscience? Discover it now!</p>
+                    <div class="profile">
+                        <img id="profileimg" src="/src/1580828579669 (1).jfif" alt="Owner">
+                        <div>
+                            <h3>Caio Cabral</h3>
+                            <p class="followers">32 followers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img id="banner" src="/src/apple.jpg" alt="Macbook Apple">
+                    <div class="labeldiv">
+                    <p id="label2">Work</p>
+                     </div>
+                    <p class="tags">#homeoffice #work #setup #apple</p>
+                    <h2 class="content">The modern home office setup</h2>
+                    <p class="content">Working from home is more important than ever! </p>
+                    <div class="profile">
+                        <img id="profileimg" src="/src/elen.jpg" alt="Owner">
+                        <div>
+                            <h3>Everton Santos</h3>
+                            <p class="followers">2608 followers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img id="banner" src="/src/criptocurrency.jpg" alt="Criptocurrency">
+                    <div class="labeldiv">
+                        <p id="label3">Economy</p>
+                    </div>
+                    <p class="tags">#bitcoin #criptocurrency #technology #economy</p>
+                    <h2 class="content">Guide: How does Bitcoin work?</h2>
+                    <p class="content">A Beginner's Guide to Bitcoin and Cryptocurrency</p>
+                    <div class="profile">
+                        <img id="profileimg" src="/src/assimg.jpg" alt="Owner">
+                        <div>
+                            <h3>Elen Oliveira</h3>
+                            <p class="followers">532 followers</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+        <div id="skills">
+            
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>E-mail: caio_cabral1@hotmail.com</p>
+            <p>Feito por: Caio Cabral</p>
+        </div>
+        <div>
+            <img src="./src/linkedin.png" alt="">
+            <img src="./src/github.png" alt="">
+        </div>
+    </footer>
 </body>
 </html>
