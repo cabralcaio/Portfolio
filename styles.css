@@ -58,7 +58,7 @@ li {
 .btn-primary:hover {
     background-color: #6E07F3;
     color: white;
-    animation-delay: 100ms;
+    transition: ease-in-out 0.4s;
 }
 
 .btn-secondary {
@@ -69,14 +69,13 @@ li {
     background-color: transparent;
     border-radius: 50px;
     border-color:#5BE9B9;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding: 15px 25px;
     cursor: pointer;
 }
 .btn-secondary:hover {
+    transition: ease-in-out 0.4s;
     background-color: #5BE9B9;
     color: #141c3a;
-    animation-delay: 100ms;
 }
 
 #start h1 {
@@ -184,6 +183,54 @@ li {
 
 
 
+.skill-box {
+    height: 106px;
+    width: 106px;
+    background-color: #6E07F3;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease 0.3s;
+}
+.skill-conteiner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 50%;
+}
+.skill-box:hover {
+    transform: scale(1.05);
+}
+.skill-icon {
+    width: 80px;
+}
+.skill-box .skill-icon {
+    transition: ease-in-out 0.3s;
+}
+.skill-box:hover .skill-icon {
+    opacity: 0;
+}
+.skill1{
+    background-image: url(./src/html.png);
+    background-size: 78px;
+}
+.skill2{
+    background-image: url(./src/java.png);
+    background-size: 79px;
+}
+.skill3{
+    background-image: url(./src/java-script.png);
+    background-size: 79px;
+}
+
+
+
+
 footer {
     background-color: #6E07F3;
     margin-top: 200px;
@@ -235,20 +282,22 @@ footer h1 {
 
 
 
+
 .card {
     background-color: white;
     width: 370px;
     margin: auto;
     border-radius: 20px;
-    -webkit-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
-    -moz-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
-    box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
 }
 #profileimg {
     width: 80px;
     height: 80px;
     padding-left: 10px;
     border-radius: 50%;
+}
+#profileimg:hover {
+    opacity: 0;
 }
 #banner {
     width: 100%;
