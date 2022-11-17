@@ -207,7 +207,7 @@ li {
     transform: scale(1.05);
 }
 .skill-icon {
-    width: 80px;
+    width: 60px;
 }
 .skill-box .skill-icon {
     transition: ease-in-out 0.3s;
@@ -217,15 +217,19 @@ li {
 }
 .skill1{
     background-image: url(./src/html.png);
-    background-size: 78px;
+    background-size: 58px;
 }
 .skill2{
     background-image: url(./src/java.png);
-    background-size: 79px;
+    background-size: 59px;
 }
 .skill3{
     background-image: url(./src/java-script.png);
-    background-size: 79px;
+    background-size: 59px;
+}
+.skill4{
+    background-image: url(./src/angular.png);
+    background-size: 59px;
 }
 
 
