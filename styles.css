@@ -231,7 +231,12 @@ li {
     background-image: url(./src/angular.png);
     background-size: 59px;
 }
-
+.is-invisible {
+    visibility: hidden;
+}
+.is-visible {
+visibility: visible;
+}
 
 
 
