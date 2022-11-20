@@ -237,6 +237,9 @@ li {
 .is-visible {
 visibility: visible;
 }
+.visibility-off {
+    display: none;
+}
 
 
 
