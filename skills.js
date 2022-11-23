@@ -1,4 +1,4 @@
-let itemShowed = document.getElementById("text")
+let itemShowed = document.getElementById("text0")
 let boxSelected = document.querySelector(".skill-conteiner")
 console.log(boxSelected)
 
@@ -31,8 +31,8 @@ function ocultar(number) {
 
 boxSelected.addEventListener("mouseleave", function(evento){
     itemShowed.style.display="none"; //esconde o texto principal
-    itemShowed = document.getElementById("text")
-    document.getElementById("text").style.display="list-item"; //mostra o texto do bloco que passou em cima
+    itemShowed = document.getElementById("text0")
+    document.getElementById("text0").style.display="list-item"; //mostra o texto do bloco que passou em cima
 })
 
 
