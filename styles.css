@@ -122,10 +122,6 @@ li {
     line-height: 1.5;
 }
 
-#projects {
-    margin-top: 300px;
-}
-
 #div-introdution {
     padding: 70px 140px;
     width: 50%;
@@ -174,14 +170,6 @@ li {
     line-height: 1.5;
     margin-right: 35px;
 }
-
-#projects h1{
-    
-    text-align: center;
-    color: #141c3a;
-}
-
-
 
 .skill-box {
     height: 106px;
@@ -294,13 +282,33 @@ footer h1 {
 
 
 
+#project-title h1{
+    text-align: center;
+}
+#project-title {
+    padding-top: 100px;
+    margin-top: -150px;
+    background-color: #6E07F3;
+    color: white;
+    align-content: center;
+    height: 280px;
+}
+.projects-call {
+    margin-top: 200px;
+}
+#projects {
+    margin-top: -250px;
+}
+
 
 .card {
     background-color: white;
     width: 370px;
     margin: auto;
     border-radius: 20px;
-    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+    /* box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8; */
+    box-shadow: 20px 20px 20px -30px #6E07F3;
+    box-shadow: -20px 20px 20px -30px #6E07F3;
 }
 #profileimg {
     width: 80px;
