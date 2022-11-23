@@ -324,14 +324,15 @@ footer h1 {
     /* box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8; */
     box-shadow: -20px 20px 20px -30px #6E07F3;
 }
+.is-blur {
+    filter: blur(4px);
+}
 #profileimg {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 55px;
     padding-left: 10px;
     border-radius: 50%;
-}
-#profileimg:hover {
-    opacity: 0;
+    
 }
 #banner {
     width: 100%;
@@ -353,7 +354,7 @@ text-align: center;
 }
 .profile {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     padding-bottom: 15px;
 }
 .followers {
