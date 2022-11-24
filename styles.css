@@ -50,15 +50,17 @@ li {
     background-color: transparent;
     border-radius: 50px;
     border-color:#6E07F3;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-top: 0%;
+    padding: 14px 25px;
     cursor: pointer;
 }
 .btn-primary:hover {
     background-color: #6E07F3;
     color: white;
     transition: ease-in-out 0.4s;
+}
+.btn-primary a{
+    text-decoration: none;
+    color: #6E07F3;
 }
 
 .btn-secondary {
@@ -326,6 +328,14 @@ footer h1 {
 }
 .is-blur {
     filter: blur(4px);
+}
+.vertical-belt {
+    margin-top: -200px;
+    background-color: #705656;
+    width: 500px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(-50deg);
 }
 #profileimg {
     width: 70px;
