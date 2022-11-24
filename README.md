@@ -40,7 +40,7 @@ Important: Version 1.0 is not yet optimized for mobile devices, responsiveness w
 
 <a href="https://github.com/cabralcaio">
 
-<img width="50px" src="./src/mesdtn.png"/><br>
+<img width="200px" src="./src/mesdtn.png"/><br>
 
 <sub>
 
