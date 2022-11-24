@@ -36,3 +36,14 @@ boxSelected.addEventListener("mouseleave", function(evento){
 })
 
 
+function mudar(number) {
+    var label = document.getElementById(`label${number}`)
+    label.style.transition = "ease-in-out 0.4s"
+    label.style.letterSpacing = "5px"
+}
+
+function voltar(number) {
+    var label = document.getElementById(`label${number}`)
+    label.style.transition = "ease-in-out 0.4s"
+    label.style.letterSpacing = "0px"
+}

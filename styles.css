@@ -326,6 +326,9 @@ footer h1 {
     /* box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8; */
     box-shadow: -20px 20px 20px -30px #6E07F3;
 }
+.card:hover {
+    box-shadow: -30px 20px 20px -30px #6E07F3;
+}
 .is-blur {
     filter: blur(4px);
 }
@@ -381,7 +384,7 @@ margin-top: -15px;
 }
 #label1 {
     color: white;
-    background-color: #FA8334;
+    background-color: #13e813;
     width: fit-content;
     padding: 3px 10px;
     border-radius: 10px;
@@ -389,7 +392,7 @@ margin-top: -15px;
 }
 #label2 {
     color: white;
-    background-color: #388697;
+    background-color: #13e813;
     width: fit-content;
     padding: 3px 10px;
     border-radius: 10px;
@@ -397,11 +400,21 @@ margin-top: -15px;
 }
 #label3 {
     color: white;
-    background-color: #30143f;
+    background-color: red;
     width: fit-content;
     padding: 3px 10px;
     border-radius: 10px;
     font-weight: 800;
+    filter: blur(1px);
+}
+#label4{
+    color: white;
+    background-color: red;
+    width: fit-content;
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-weight: 800;
+    margin-left: 50px;
 }
 .labeldiv {
     padding-left: 10px;
