@@ -328,6 +328,7 @@ footer h1 {
 }
 .card:hover {
     box-shadow: -30px 20px 20px -30px #6E07F3;
+    transition: ease-in-out 0.4s;
 }
 .is-blur {
     filter: blur(4px);
