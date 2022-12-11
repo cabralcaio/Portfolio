@@ -9,7 +9,14 @@ nav {
     justify-content: space-around;
     background-color: rgb(248, 248, 248);
     align-items: center;
-    padding: 10px 50px;
+    padding: 1px 50px;
+    height: 14vh;
+    position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 999px;
+   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
 }
 .mobile-menu {
     cursor: pointer;
@@ -21,6 +28,7 @@ nav {
     height: 2px;
     background: #6E07F3;
     margin: 8px;
+    transition: 0.3s;
 }
 @media (max-width: 999px) {
     body {
@@ -45,6 +53,13 @@ nav {
     }
     .mobile-menu {
         display: block;
+        justify-content: end;
+    }
+    nav {
+        justify-content: space-between;
+    }
+    .btn-primary {
+        margin-left: -50px;
     }
 }
 .nav-list.active {
@@ -60,9 +75,19 @@ nav {
         transform: translateX(0);
     }
 }
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+}
 
 #btn-li ul {
     display: flex;
+    align-items: center;
 }
 
 .items-menu {
@@ -83,12 +108,11 @@ li {
   }
 
   nav img {
-    width: 120px;
+    max-width:120px;
+    max-height:120px;
+    width: auto;
+    height: auto;
   }
-
-#btn-li {
-    display: flex;
-}
 
 .btn-primary {
     font-size: 17px;
@@ -380,14 +404,6 @@ footer h1 {
 }
 .is-blur {
     filter: blur(4px);
-}
-.vertical-belt {
-    margin-top: -200px;
-    background-color: #705656;
-    width: 500px;
-    text-align: center;
-    padding: 5% 0;
-    transform: rotate(-50deg);
 }
 #profileimg {
     width: 70px;
