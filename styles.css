@@ -11,7 +11,7 @@ nav {
     align-items: center;
     padding: 1px 50px;
     height: 14vh;
-    position: fixed;
+    position: relative;
    top: 0;
    left: 0;
    width: 100%;
@@ -121,7 +121,7 @@ li {
     color: #6E07F3;
     background-color: transparent;
     border-radius: 50px;
-    border-color:#6E07F3;
+    border: solid 2px #6E07F3;
     padding: 14px 25px;
     cursor: pointer;
 }
@@ -142,7 +142,7 @@ li {
     color: white;
     background-color: transparent;
     border-radius: 50px;
-    border-color:#5BE9B9;
+    border: solid 2px #5BE9B9;
     padding: 15px 25px;
     cursor: pointer;
 }
