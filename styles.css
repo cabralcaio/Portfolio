@@ -151,6 +151,42 @@ li {
     background-color: #5BE9B9;
     color: #141c3a;
 }
+.btn-three {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    height: 60px;
+    color: #141c3a;
+    background-color: #5BE9B9;
+    border-radius: 50px;
+    border: solid 2px #5BE9B9;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+.btn-three:hover {
+    background-color: #6effcf;
+}
+
+.repository {
+    margin-top: 80px;
+    margin-bottom: -50px;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    background-color: #6E07F3;
+}
+.repository h3 {
+    color: white;
+    font-size: 17px;
+}
+.inside-repository {
+    text-align: center;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 
 #start h1 {
     color: #141c3a;
