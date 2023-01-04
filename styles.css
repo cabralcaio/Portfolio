@@ -11,11 +11,11 @@ nav {
     align-items: center;
     padding: 1px 50px;
     height: 14vh;
-    position: relative;
+    position: fixed;
    top: 0;
    left: 0;
    width: 100%;
-   z-index: 999px;
+   z-index: 999;
    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
 }
 .mobile-menu {
@@ -469,7 +469,7 @@ text-align: center;
 .profile {
     display: flex;
     align-items: center;
-    padding-bottom: 15px;
+    padding-bottom: 1px;
 }
 .followers {
     margin-top: -15px;
@@ -481,7 +481,7 @@ text-align: center;
     margin-top: 110px;
 }
 .content {
-margin-top: -15px;
+margin-top: -5px;
 }
 #label1 {
     color: white;
