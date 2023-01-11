@@ -1,4 +1,6 @@
-﻿# Portfólio 🧑‍💻
+﻿# 📢 ATENÇÃO: Versão antiga. Clique abaixo para nova versão
+<a target="_blank" href="https://github.com/cabralcaio/Portfolio2.0">NOVA VERSÃO</a>
+# Portfólio 🧑‍💻
 
 O projeto foi desenvolvido utilizando CSS, JavaScript e HTML puro. 
 The project was developed using HTML, CSS, and Javascript.

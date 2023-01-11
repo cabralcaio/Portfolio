@@ -4,6 +4,23 @@ body {
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
+.caution {
+    height: 200px;
+    background-color: red;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: -150px;
+}
+.caution h1{
+    color: yellow;
+}
+.caution .btn-primary {
+    background-color: yellow;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
